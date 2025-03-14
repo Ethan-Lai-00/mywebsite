@@ -30,15 +30,16 @@
 
 <div
 	bind:this={ref}
-	class="relative flex h-[300vh] flex-col self-auto overflow-hidden py-4 antialiased [perspective:1000px] [transform-style:preserve-3d]"
+	class="relative flex flex-col self-auto overflow-hidden py-4 pt-70 antialiased [perspective:1000px] [transform-style:preserve-3d] lg:pt-60 xl:pt-96"
 >
 	<div class="relative top-0 left-0 mx-auto w-full max-w-7xl px-4 py-8 md:py-4">
 		<h2 class="text-2xl font-bold md:text-7xl dark:text-white">
-			The Ultimate <br /> development studio
+			Web & App Development <br /> with a Focus on UI/UX Design
 		</h2>
 		<p class="mt-8 max-w-2xl text-base md:text-xl dark:text-neutral-200">
-			We build beautiful products with the latest technologies and frameworks. We are a team of
-			passionate developers and designers that love to build amazing products.
+			I specialize in web and app development, creating seamless, responsive designs that engage
+			users. With Figma, I design intuitive UI/UX interfaces that prioritize user experience and
+			functionality.
 		</p>
 	</div>
 	<Motion
@@ -52,21 +53,21 @@
 	>
 		<div use:motion>
 			<Motion let:motion>
-				<div use:motion class="mb-20 flex flex-row-reverse space-x-20 space-x-reverse">
+				<div use:motion class="mb-10 flex flex-row-reverse space-x-20 space-x-reverse">
 					{#each firstRow as product (product.title)}
 						<ProductCard {product} translate={translateX} />
 					{/each}
 				</div>
 			</Motion>
 			<Motion let:motion>
-				<div use:motion class="mb-20 flex flex-row space-x-20">
+				<div use:motion class="mb-10 flex flex-row space-x-20">
 					{#each secondRow as product (product.title)}
 						<ProductCard {product} translate={translateXReverse} />
 					{/each}
 				</div>
 			</Motion>
 			<Motion let:motion>
-				<div use:motion class="flex flex-row-reverse space-x-20 space-x-reverse">
+				<div use:motion class="mb-[500px] flex flex-row-reverse space-x-20 space-x-reverse">
 					{#each thirdRow as product (product.title)}
 						<ProductCard {product} translate={translateX} />
 					{/each}

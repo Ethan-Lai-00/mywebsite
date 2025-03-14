@@ -19,19 +19,30 @@
 	}}
 >
 	<div use:motion class="group/product relative h-96 w-[30rem] flex-shrink-0">
-		<a href={product.link} class="block group-hover/product:shadow-2xl">
+		<!-- <a href={product.link} class="block group-hover/product:shadow-2xl">
 			<img
 				src={product.thumbnail}
 				height="600"
 				width="600"
-				class="absolute inset-0 h-full w-full object-cover object-left-top"
+				class="absolute inset-0 h-full w-full object-contain object-center"
 				alt={product.title}
 			/>
-		</a>
+		</a> -->
+		<div class="block group-hover/product:shadow-2xl">
+			<img
+				src={product.thumbnail}
+				height="600"
+				width="600"
+				class="absolute inset-0 h-full w-full object-contain object-center"
+				alt={product.title}
+			/>
+		</div>
 		<div
-			class="pointer-events-none absolute inset-0 h-full w-full bg-black opacity-0 group-hover/product:opacity-80"
+			class="pointer-events-none absolute inset-0 h-full w-full bg-black opacity-0 group-hover/product:opacity-40"
 		></div>
-		<h2 class="absolute bottom-4 left-4 text-white opacity-0 group-hover/product:opacity-100">
+		<h2
+			class="absolute bottom-4 left-4 font-bold text-white opacity-0 group-hover/product:opacity-100"
+		>
 			{product.title}
 		</h2>
 	</div>

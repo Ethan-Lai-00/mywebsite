@@ -1,88 +1,113 @@
 <script lang="ts">
 	import { HeroParallax } from '$lib/components/ui/HeroParallax/index.js';
+	import Topbar from '$lib/components/Topbar.svelte';
 
 	const products = [
 		{
-			title: 'Moonbeam',
-			link: 'https://gomoonbeam.com',
-			thumbnail: 'https://aceternity.com/images/products/thumbnails/new/moonbeam.png'
+			title: 'Payment Summary',
+			link: '',
+			thumbnail: '/ui_designs/Summary.png'
 		},
 		{
-			title: 'Cursor',
-			link: 'https://cursor.so',
-			thumbnail: 'https://aceternity.com/images/products/thumbnails/new/cursor.png'
+			title: 'Career Fair',
+			link: '',
+			thumbnail: '/ui_designs/CareerFair.png'
 		},
 		{
-			title: 'Rogue',
-			link: 'https://userogue.com',
-			thumbnail: 'https://aceternity.com/images/products/thumbnails/new/rogue.png'
-		},
-
-		{
-			title: 'Editorially',
-			link: 'https://editorially.org',
-			thumbnail: 'https://aceternity.com/images/products/thumbnails/new/editorially.png'
-		},
-		{
-			title: 'Editrix AI',
-			link: 'https://editrix.ai',
-			thumbnail: 'https://aceternity.com/images/products/thumbnails/new/editrix.png'
-		},
-		{
-			title: 'Pixel Perfect',
-			link: 'https://app.pixelperfect.quest',
-			thumbnail: 'https://aceternity.com/images/products/thumbnails/new/pixelperfect.png'
+			title: 'Landing',
+			link: '',
+			thumbnail: '/ui_designs/Landing.png'
 		},
 
 		{
-			title: 'Algochurn',
-			link: 'https://algochurn.com',
-			thumbnail: 'https://aceternity.com/images/products/thumbnails/new/algochurn.png'
+			title: 'CGPT',
+			link: '',
+			thumbnail: '/ui_designs/CGPT.png'
 		},
 		{
-			title: 'Aceternity UI',
-			link: 'https://ui.aceternity.com',
-			thumbnail: 'https://aceternity.com/images/products/thumbnails/new/aceternityui.png'
+			title: 'Copilot AI',
+			link: '',
+			thumbnail: '/ui_designs/Copilot.png'
 		},
 		{
-			title: 'Tailwind Master Kit',
-			link: 'https://tailwindmasterkit.com',
-			thumbnail: 'https://aceternity.com/images/products/thumbnails/new/tailwindmasterkit.png'
-		},
-		{
-			title: 'SmartBridge',
-			link: 'https://smartbridgetech.com',
-			thumbnail: 'https://aceternity.com/images/products/thumbnails/new/smartbridge.png'
-		},
-		{
-			title: 'Renderwork Studio',
-			link: 'https://renderwork.studio',
-			thumbnail: 'https://aceternity.com/images/products/thumbnails/new/renderwork.png'
+			title: 'Core Services',
+			link: '',
+			thumbnail: '/ui_designs/CoreServices.png'
 		},
 
 		{
-			title: 'Creme Digital',
-			link: 'https://cremedigital.com',
-			thumbnail: 'https://aceternity.com/images/products/thumbnails/new/cremedigital.png'
+			title: 'Facility View',
+			link: '',
+			thumbnail: '/ui_designs/FacilityView.png'
+		},
+
+		{
+			title: 'Giftcard',
+			link: '',
+			thumbnail: '/ui_designs/Giftcard.png'
+		},
+
+		{
+			title: 'POS Cards',
+			link: '',
+			thumbnail: '/ui_designs/POS_Cards.png'
 		},
 		{
-			title: 'Golden Bells Academy',
-			link: 'https://goldenbellsacademy.com',
-			thumbnail: 'https://aceternity.com/images/products/thumbnails/new/goldenbellsacademy.png'
+			title: 'Sign In',
+			link: '',
+			thumbnail: '/ui_designs/SignIn.png'
 		},
 		{
-			title: 'Invoker Labs',
-			link: 'https://invoker.lol',
-			thumbnail: 'https://aceternity.com/images/products/thumbnails/new/invoker.png'
+			title: 'Electric Carbon Emission',
+			link: '',
+			thumbnail: '/ui_designs/ElectricEmission.png'
 		},
 		{
-			title: 'E Free Invoice',
-			link: 'https://efreeinvoice.com',
-			thumbnail: 'https://aceternity.com/images/products/thumbnails/new/efreeinvoice.png'
+			title: 'Giftcard Email',
+			link: '',
+			thumbnail: '/ui_designs/Giftcard_Email.png'
+		},
+		{
+			title: 'Groceries',
+			link: '',
+			thumbnail: '/ui_designs/Groceries.png'
+		},
+		{
+			title: 'Grocer Chat',
+			link: '',
+			thumbnail: '/ui_designs/Grocer_Chat.png'
+		},
+		{
+			title: 'Petrol Carbon Emission',
+			link: '',
+			thumbnail: '/ui_designs/PetrolEmission.png'
 		}
 	];
 </script>
 
-<div class="container mx-auto w-[80vw] lg:w-[60vw]">
+<main class="flex w-full flex-col">
+	<Topbar />
 	<HeroParallax {products} />
-</div>
+
+	<!-- Additional Section 1 -->
+	<section class=" bg-gray-100 py-16">
+		<div class="mx-auto max-w-7xl px-4">
+			<h2 class="text-3xl font-bold">Our Services</h2>
+			<p class="mt-4 text-xl">We provide a range of services tailored to your needs.</p>
+			<div class="mt-8 grid grid-cols-1 gap-8 md:grid-cols-2 lg:grid-cols-3">
+				<div class="rounded-lg bg-white p-6 shadow-lg">
+					<h3 class="text-xl font-semibold">Web Development</h3>
+					<p class="mt-4">We create beautiful, responsive websites to help businesses grow.</p>
+				</div>
+				<div class="rounded-lg bg-white p-6 shadow-lg">
+					<h3 class="text-xl font-semibold">App Development</h3>
+					<p class="mt-4">Our apps deliver seamless experiences for users across devices.</p>
+				</div>
+				<div class="rounded-lg bg-white p-6 shadow-lg">
+					<h3 class="text-xl font-semibold">UI/UX Design</h3>
+					<p class="mt-4">We design user-centric interfaces that engage and delight users.</p>
+				</div>
+			</div>
+		</div>
+	</section>
+</main>
