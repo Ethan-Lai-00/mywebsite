@@ -32,7 +32,7 @@
 	bind:this={ref}
 	class="relative flex flex-col self-auto overflow-hidden py-4 pt-70 antialiased [perspective:1000px] [transform-style:preserve-3d] lg:pt-60 xl:pt-96"
 >
-	<div class="relative top-0 left-0 mx-auto w-full max-w-7xl px-4 py-8 md:py-4">
+	<div class="relative -top-30 left-0 mx-auto w-full max-w-7xl px-4 py-8 md:py-4 2xl:top-0">
 		<h2 class="text-2xl font-bold md:text-7xl dark:text-white">
 			Web & App Development <br /> with a Focus on UI/UX Design
 		</h2>
