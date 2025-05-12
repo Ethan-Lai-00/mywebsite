@@ -143,7 +143,7 @@
 	];
 </script>
 
-<main class="flex w-full flex-col">
+<main class="flex w-full flex-col bg-white dark:bg-slate-200">
 	<!-- <Topbar /> -->
 	<HeroParallax {products} />
 
@@ -151,7 +151,7 @@
 		<section class="my-20">
 			<div class="overflow-hidden rounded-xl bg-white shadow-xl dark:bg-gray-800">
 				<div class="p-8 md:p-12">
-					<h2 class="dark:prose-invert mb-6 text-3xl font-bold md:text-4xl">My Resume</h2>
+					<h2 class="mb-6 text-3xl font-bold md:text-4xl dark:text-white">My Resume</h2>
 					<div class="flex flex-col items-center gap-8 md:flex-row">
 						<div class="relative w-full md:w-2/3">
 							<div
