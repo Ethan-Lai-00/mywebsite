@@ -33,10 +33,10 @@
 	class="relative flex flex-col self-auto overflow-hidden py-4 pt-100 antialiased [perspective:1000px] [transform-style:preserve-3d] lg:pt-120 xl:pt-120"
 >
 	<div class="relative -top-30 left-0 mx-auto w-full max-w-7xl px-4 py-8 md:py-4 2xl:top-0">
-		<h2 class="text-2xl font-bold md:text-7xl dark:text-gray-800">
+		<h2 class="text-2xl font-bold md:text-7xl dark:text-black">
 			Web & App Development <br /> with a Focus on UI/UX Design
 		</h2>
-		<p class="mt-8 max-w-2xl text-base md:text-xl dark:text-gray-500">
+		<p class="mt-8 max-w-2xl text-base md:text-xl dark:text-gray-300">
 			I specialize in web and app development, creating seamless, responsive designs that engage
 			users. With Figma, I design intuitive UI/UX interfaces that prioritize user experience and
 			functionality.
