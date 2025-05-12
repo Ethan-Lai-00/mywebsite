@@ -238,7 +238,7 @@
 				</div>
 
 				<div class="w-full space-y-4 md:w-1/2">
-					<h2 class="text-2xl font-bold md:text-3xl">{project.title}</h2>
+					<h2 class="text-2xl font-bold md:text-3xl dark:text-white">{project.title}</h2>
 					<p class="text-gray-600 dark:text-gray-300">{project.description}</p>
 
 					<div class="flex flex-wrap gap-2 pt-2">
