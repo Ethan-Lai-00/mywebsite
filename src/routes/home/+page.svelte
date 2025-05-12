@@ -143,11 +143,11 @@
 	];
 </script>
 
-<main class="flex w-full flex-col bg-white dark:bg-slate-200">
+<main class="  flex w-full flex-col bg-white dark:bg-slate-200">
 	<!-- <Topbar /> -->
 	<HeroParallax {products} />
 
-	<div class="flex flex-col space-y-32 px-10 py-10">
+	<div class="container mx-auto flex max-w-7xl flex-col space-y-32 px-10 py-10">
 		<section class="my-20">
 			<div class="overflow-hidden rounded-xl bg-white shadow-xl dark:bg-gray-800">
 				<div class="p-8 md:p-12">
