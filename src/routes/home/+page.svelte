@@ -151,7 +151,7 @@
 		<section class="my-20">
 			<div class="overflow-hidden rounded-xl bg-white shadow-xl dark:bg-gray-800">
 				<div class="p-8 md:p-12">
-					<h2 class="mb-6 text-3xl font-bold md:text-4xl">My Resume</h2>
+					<h2 class="dark:prose-invert mb-6 text-3xl font-bold md:text-4xl">My Resume</h2>
 					<div class="flex flex-col items-center gap-8 md:flex-row">
 						<div class="relative w-full md:w-2/3">
 							<div
@@ -244,7 +244,7 @@
 					<div class="flex flex-wrap gap-2 pt-2">
 						{#each project.skills as skill}
 							<span
-								class="rounded-full bg-purple-100 px-3 py-1 text-sm text-purple-700 dark:bg-purple-900/30 dark:text-purple-300"
+								class="rounded-full bg-purple-100 px-3 py-1 text-sm text-purple-700 dark:bg-purple-700 dark:text-purple-300"
 							>
 								{skill}
 							</span>
