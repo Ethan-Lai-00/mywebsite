@@ -143,7 +143,7 @@
 	];
 </script>
 
-<main class="  flex w-full flex-col bg-white dark:bg-slate-200">
+<main class="  flex w-full flex-col bg-white dark:bg-slate-600">
 	<!-- <Topbar /> -->
 	<HeroParallax {products} />
 
