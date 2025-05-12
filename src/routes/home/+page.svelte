@@ -231,7 +231,7 @@
 							rel="noopener noreferrer"
 							class="flex items-center gap-1 text-sm font-medium text-purple-600 dark:text-purple-400"
 						>
-							<span>View in Figma</span>
+							<span>{index === 0 ? 'View Website' : 'View in Figma'}</span>
 							<Icon icon="lucide:external-link" />
 						</a>
 					</div>
